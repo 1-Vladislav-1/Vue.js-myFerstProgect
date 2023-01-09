@@ -40,6 +40,8 @@ const App = {
     },
     setActive(idx) {
       this.activeIndex = idx
+      this.isActive = true
+
       // когда нажимаем на определенный шаг
     }
   },
